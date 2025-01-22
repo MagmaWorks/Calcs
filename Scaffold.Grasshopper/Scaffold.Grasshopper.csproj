@@ -34,7 +34,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Grasshopper" Version="8.14.24345.15001" ExcludeAssets="runtime" />
+    <PackageReference Include="Grasshopper" Version="8.15.25019.13001" ExcludeAssets="runtime" />
   </ItemGroup>
   
   <!-- For Windows only builds -->
@@ -50,7 +50,7 @@
     <!-- Rhino 8.10 and earlier -->
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" ExcludeAssets="all" GeneratePathProperty="true" />
     <Reference Include="$(PkgMicrosoft_NETFramework_ReferenceAssemblies_net48)\build\.NETFramework\v4.8\System.Windows.Forms.dll" Private="False" />
-    <PackageReference Include="System.Drawing.Common" Version="9.0.0" ExcludeAssets="runtime" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.1" ExcludeAssets="runtime" />
   </ItemGroup>
   
   <ItemGroup>
